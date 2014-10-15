@@ -1,0 +1,62 @@
+# Header
+menu:
+- name: Archives
+  path: /archives
+  logo: archive
+- name: Categories
+  path: /categories
+  logo: folder
+- name: Tags
+  path: /tags
+  logo: tags
+- name: About
+  path: /about
+  logo: user
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+pages:
+- about
+
+# Sidebar
+sidebar: right
+home_widgets:
+- search
+- category
+- tag
+- archive
+- blogroll
+act_widgets:
+- search
+- recent_posts
+- blogroll
+post_widgets:
+- nav
+- post_date
+- post_category
+- post_tag
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.ico
+twitter:
+google_plus:
+
+links:
+- name: Github
+  url: https://github.com/
+  logo: github
+- name: Google+
+  url: https://plus.google.com/
+  logo: google-plus
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+sitemap:
+  path: sitemap.xml
