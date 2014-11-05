@@ -73,7 +73,7 @@
 .article-header
   padding: article-padding article-padding
   background: #F5F5F5
-  border-radius: 3px
+  border-radius: 5px
   h1
     display: inline-block
   i
@@ -92,12 +92,12 @@
     color: color-link
 
 #toc
-  border-radius: 10px
+  border-radius: 4px
   float: right
   font-size: 10pt
   width: 250px
   padding: 10px 10px 10px 20px
-  background: #eee
+  background: #f8f8f8
   border: 1px solid color-border
   margin: 0px 0px 10px 15px
 
@@ -165,6 +165,33 @@
   blockquote
     font-family: font-serif
     margin: line-height 20px
+    border: 1px solid #e7e7e7
+    border-left: 4px solid #e7e7e7
+    border-radius: 4px
+    padding: 0 20px
+    position: relative
+
+    @media mq-tablet
+      margin-left: 40px
+
+    &:before
+      content: "\f10d"
+      position: absolute
+      left: -40px
+      top: 20px
+      font-size: 25px
+      width: 25px
+      height: 25px
+      text-align: center
+      color: #DDD
+
+      font-family: FontAwesome
+      font-style: normal
+      font-weight: normal
+      font-variant: normal
+      text-transform: none
+      -webkit-font-smoothing: antialiased
+
     footer
       font-size: font-size
       margin: line-height 0
@@ -173,6 +200,7 @@
         &:before
           content: "—"
           padding: 0 0.5em
+
   .pullquote
     text-align: left
     width: 45%
