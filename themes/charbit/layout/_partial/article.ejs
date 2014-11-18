@@ -4,9 +4,16 @@
     <% if ((is_home() || is_archive() || is_category() || is_tag())
       && (post.link || post.title)){ %>
       <header class="article-header">
-        <i class="fa fa-file-text-o"></i>
-        <%- partial('post/title', {class_name: 'article-title'}) %>
-        <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+          <div class="header-container">
+              <i class="fa fa-file-text-o"></i>
+              <div class="element">
+                  <%- partial('post/title', {class_name: 'article-title'}) %>
+              </div>
+              <div class="element">
+                  <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+              </div>
+          </div>
+
       </header>
     <% } %>
     <div class="article-entry" itemprop="articleBody">
