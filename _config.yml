@@ -4,11 +4,11 @@
 
 # Site
 title: CharB.it
-subtitle: A Journey Through Life, Culture and Software Development
+subtitle: A Journey Through Software Development, Culture and Life
 description:
 author: Nazar Aziz
 email: mcnazar@gmail.com
-language:
+language: en-gb
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
