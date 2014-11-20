@@ -27,8 +27,8 @@
       var html = [
         '<div id="' + id + '" class="article-share-box">',
           '<div class="article-share-links">',
-            '<a href="http://v.t.sina.com.cn/share/share.php?url=' + encodedUrl + '&title=' + summary + '" class="article-share-weibo" target="_blank" title="Weibo"></a>',
-            '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&title=' + title + '&description=' + summary + '" class="article-share-renren" target="_blank" title="Renren"></a>',
+            '<a href="http://twitter.com/share?=' + summary + '&url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+            '<a href="https://www.linkedin.com/shareArticle?mini=true&url=' + encodedUrl + '&title=' + title + '&summary=' + summary + '" class="article-share-linked" target="_blank" title="LinkedIn"></a>',
             '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
           '</div>',
         '</div>'
