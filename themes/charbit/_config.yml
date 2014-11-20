@@ -9,9 +9,9 @@ menu:
 - name: Tags
   path: /tags
   logo: tags
-- name: About
-  path: /about
-  logo: user
+#- name: About
+#  path: /about
+#  logo: user
 rss: /atom.xml
 
 # Content
