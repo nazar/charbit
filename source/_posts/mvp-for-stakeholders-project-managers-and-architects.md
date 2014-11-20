@@ -142,10 +142,10 @@ and [Lean](http://en.wikipedia.org/wiki/Lean_software_development) development m
 1. Any work undertaken (i.e. cutting code, research, bug fixes, etc) ***must*** have a corresponding story or issue in the tracker. This discipline 
  must also be extended to the Developer where any code changes to the product must reference a story, no matter how trivial that change is.
  
-1. Avoid using email for any technical discussions, especially if these discussion are related to software features. Instead use 
-the project management tool for ***all*** discussions using the commenting feature. Current email clients make it difficult to find technical details in an ocean of email; 
- these are much easier to find if all discussions were recorded against specific stories (which in turn are referenced  
- in all code changes during commits). _Train the Stakeholder to do this early in the development process_.
+1. Avoid using email for any technical discussions, especially if these discussions are related to software features. Instead use 
+the project management tool for ***all*** discussions using the commenting feature. Current email clients make it difficult to find previously discussed technical details in an ocean of email; 
+ these are much easier to find if all discussions were recorded against specific stories (which in turn are referenced in all code changes during commits).
+ _Train the Stakeholder to do this early in the development process_.
 
 1. Keep the Stakeholder informed on a ***daily*** basis. If you've chosen your project management tool wisely (i.e. not Microsoft Project) 
 then the Stakeholder will have a real-time view of the development process.  
@@ -184,11 +184,11 @@ be completely written from scratch as that provides complete flexibility in adju
     
 1. Concentrate on making your code readable instead of optimising it for speed. Recognise [premature optimization](http://c2.com/cgi/wiki?PrematureOptimization)
  and what a time vampire that can become. The critical factor in code is how easy it is to maintain by other developers, not how that for
-  loop shaved nano seconds off iterating through a list of five items. Remember all the times you had to maintain such code and vow never to subject 
+  loop shaved nano seconds off iterating through aa array of five items. Remember all the times you had to maintain such code and vow never to subject 
   that on anyone after you.
   
 1. Write maintainable code. The temptation is strong in going full speed ahead and ignoring development principles 
-like [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)). Technical debt is real and it is frightening how easily it accumulates. In my experience, 
+like [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design). Technical debt is real and it is frightening how easily it accumulates. In my experience, 
   an MVP's successor was never a greenfield project as time was always of the essence; Stakeholders rarely want to write-off their investment 
   in the MVP. Any code written after the MVP is launched will be based on the code that already exists. 
 
