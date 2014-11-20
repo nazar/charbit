@@ -4,6 +4,7 @@ tags:
 categories:
   - Software Development
 date: 2014-11-20 14:01:09
+summary: A Minimum Viable Product, in terms of software and product development, describes a process which attempts to mitigate financial risk by bringing the bare minimal or the essence of an idea to market as soon as possible.
 ---
 
 ## MVP - An Introduction
@@ -91,7 +92,7 @@ the outcome was the same: funds were depleted and development stalled leaving a 
 1. As much of the theoretical work should be done before software development begins. Think of the software development process as a run-away train; 
  once the development process starts any deviations from course are time consuming and costly. 
 
-1. Stay on target. The temptation to add features must be kept in check, especially if the development process is moving faster/better than anticipated.
+1. Stay. On. Target. Strong is the temptation to add features; this must be kept in check, especially if the development process is moving faster/better than anticipated.
  Although initial development is fast paced, this slows down towards the end, and especially in the last 90% of the development cycle, 
  also known as the [Ninety-ninety rule](http://en.wikipedia.org/wiki/Ninety-ninety_rule). This is real and must be accounted and budgeted for.  
  
@@ -173,7 +174,7 @@ Your purpose is to deliver working code _as fast as possible_.
  of Javascript build systems that automate much of the mundane tasks. Several frameworks ship with built-in build tools 
  (i.e. [Rake](http://en.wikipedia.org/wiki/Rake_%28software%29) with [Rails](http://rubyonrails.org/).
       
-1. Use a seed or a scaffolding tool such as [Yeoman](http://yeoman.io) or to do away with writing boilerplate code.
+1. Use a seed or a scaffolding tool such as [Yeoman](http://yeoman.io) to do away with writing boilerplate code.
    
 1. Use third-party libraries, components, plugins, engines etc as much as possible to avoid re-inventing the wheel. 
 
@@ -183,7 +184,7 @@ be completely written from scratch as that provides complete flexibility in adju
  has to add these features, something that is not always possible if their roadmap of the library differs from yours.
     
 1. Concentrate on making your code readable instead of optimising it for speed. Recognise [premature optimization](http://c2.com/cgi/wiki?PrematureOptimization)
- and what a time vampire that can become. The critical factor in code is how easy it is to maintain by other developers, not how that for
+ and what a time vampire that can become. The critical factor with code is how easy it is to maintain by other developers, not how that for
   loop shaved nano seconds off iterating through aa array of five items. Remember all the times you had to maintain such code and vow never to subject 
   that on anyone after you.
   

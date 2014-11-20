@@ -12,7 +12,7 @@ menu:
 #- name: About
 #  path: /about
 #  logo: user
-#rss: /atom.xml
+rss: /atom.xml
 
 # Content
 excerpt_link: Read More

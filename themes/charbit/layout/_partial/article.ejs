@@ -31,7 +31,7 @@
         <% } %>
         <footer class="article-footer">
           <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" data_title="<%- post.title %>"
-          data_summary="<%- post_summary(strip_html(post.content), 160) %>" class="article-share-link">Share</a>
+          data_summary="<%- post.summary || post_summary(strip_html(post.content), 160) %>" class="article-share-link">Share</a>
           <% if (post.comments && config.disqus_shortname){ %>
             <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
           <% } %>
