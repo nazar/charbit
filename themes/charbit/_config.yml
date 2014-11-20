@@ -40,7 +40,8 @@ post_widgets:
 - post_tag
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-55368874-2
+
 favicon: /favicon.ico
 twitter:
 google_plus:
