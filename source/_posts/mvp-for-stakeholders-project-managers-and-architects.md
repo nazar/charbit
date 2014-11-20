@@ -1,8 +1,9 @@
-title: MVPs for Stakeholders,  Project Managers and Developers
-categories:
- - Software Development
+title: "MVPs for Stakeholders,  Project Managers and Developers"
 tags:
- - MVP
+  - MVP
+categories:
+  - Software Development
+date: 2014-11-20 14:01:09
 ---
 
 ## MVP - An Introduction

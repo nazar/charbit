@@ -87,4 +87,7 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: charb.it
+  user: nazar
+  root: /var/www/charb.it
