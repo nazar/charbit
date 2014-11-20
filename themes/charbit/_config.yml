@@ -9,10 +9,10 @@ menu:
 - name: Tags
   path: /tags
   logo: tags
-- name: About
-  path: /about
-  logo: user
-rss: /atom.xml
+#- name: About
+#  path: /about
+#  logo: user
+#rss: /atom.xml
 
 # Content
 excerpt_link: Read More
@@ -47,10 +47,10 @@ google_plus:
 
 links:
 - name: Github
-  url: https://github.com/
+  url: https://github.com/nazar
   logo: github
 - name: Google+
-  url: https://plus.google.com/
+  url: https://www.google.com/+NazarAziz
   logo: google-plus
 
 feed:
