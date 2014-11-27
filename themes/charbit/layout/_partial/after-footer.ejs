@@ -22,4 +22,14 @@
 <% } %>
 <%- js('js/jquery.fitvids') %>
 <%- js('js/bootstrap.min') %>
+<%- js('js/jquery.readingTime') %>
 <%- js('js/script') %>
+
+
+<% if ( is_post() ){ %>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        $('.article').readingTime();
+    });
+</script>
+<% } %>
