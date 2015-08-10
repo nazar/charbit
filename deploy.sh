@@ -1,0 +1,1 @@
+hexo clean && hexo gm && hexo gzip && hexo deploy

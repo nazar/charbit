@@ -91,3 +91,12 @@ deploy:
   host: charb.it
   user: nazar
   root: /var/www/charb.it
+
+marked:
+  gfm: false
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
