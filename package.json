@@ -9,7 +9,7 @@
     "hexo-gzip": "0.0.1",
     "hexo-renderer-ejs": "0.1.0",
     "hexo-renderer-marked-plus": "0.1.1",
-    "hexo-renderer-stylus": "0.1.0",
+    "hexo-renderer-stylus": "https://github.com/nazar/hexo-renderer-stylus/archive/0.1.1.tar.gz",
     "hexo-tag-asset-res": "^0.1.2",
     "lodash": "3.10.1",
     "marked": "0.3.5"

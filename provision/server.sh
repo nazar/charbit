@@ -14,4 +14,4 @@ source /home/vagrant/.profile
 nvm install 0.10.40
 nvm alias default 0.10.40
 
-npm install -g git+https://github.com/nazar/hexo#2.8.3.1
+npm install -g https://github.com/nazar/hexo/archive/2.8.3.1.tar.gz

@@ -1,13 +1,44 @@
-<footer id="footer">
-  <% if (theme.sidebar === 'bottom'){ %>
-    <%- partial('_partial/sidebar') %>
-  <% } %>
-  <div class="outer container">
-    <div id="footer-info" class="inner">
-      <a href="<%= config.root %>"><%= config.title %></a> <a href="/uncopyright">Uncopyright</a>
+<footer>
+    <div id="footer" class="clearfix">
+        <% if(theme.author.author_img){ %>
+        <div class="line">
+            <span></span>
+            <div class="author"></div>
+        </div>
+        <% } %>
+        <section class="info">
+            <p>Hello, I'm Nazar Aziz; a full stack Javascript software developer with 20+ years professional experience.</p>
+            <p></p>
+        </section>
+        <div class="social-font clearfix">
+            <% if(theme.author.github){ %>
+            <a href="https://github.com/<%=theme.author.github %>" target="_blank" class="icon-github fa fa-github-alt" title="github"></a>
+            <% } %>
+            <% if(theme.author.stackoverflow){ %>
+            <a href="http://stackoverflow.com/users/<%=theme.author.stackoverflow %>" target="_blank" class="icon-stack-overflow fa fa-stack-overflow" title="stackoverflow"></a>
+            <% } %>
+            <% if(theme.author.twitter){ %>
+            <a href="https://twitter.com/<%=theme.author.twitter %>" target="_blank" class="icon-twitter fa fa-twitter" title="twitter"></a>
+            <% } %>
+            <% if(theme.author.facebook){ %>
+            <a href="https://www.facebook.com/<%=theme.author.facebook %>" target="_blank" class="icon-facebook fa fa-facebook" title="facebook"></a>
+            <% } %>
+            <% if(theme.author.linkedin){ %>
+            <a href="https://www.linkedin.com/<%=theme.author.linkedin %>" target="_blank" class="icon-linkedin fa fa-linkedin" title="linkedin"></a>
+            <% } %>
+            <% if(theme.author.google_plus){ %>
+            <a href="https://plus.google.com/<%=theme.author.google_plus %>" target="_blank" class="icon-google_plus fa fa-google-plus" title="Google+"></a>
+            <% } %>
+            <% if(theme.author.steam){ %>
+            <a href="http://steamcommunity.com/id/<%=theme.author.steam %>" target="_blank" class="icon-google_plus fa fa-steam-square" title="Steam"></a>
+            <% } %>
+            <% if(theme.author.email){ %>
+            <a href="mailto:<%=theme.author.email %>" target="_blank" class="icon-email fa fa-envelope-o" title="Email Me"></a>
+            <% } %>
+        </div>
     </div>
-  </div>
 </footer>
+
 <a id="gotop" href="#">
-  <i class="fa fa-chevron-up"></i>
+    <i class="fa fa-chevron-up"></i>
 </a>

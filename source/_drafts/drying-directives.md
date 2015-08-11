@@ -7,7 +7,7 @@ tags: [AngularJS, Directives, Javascript]
 categories: [Software Development]
 ---
 
-This is a short follow-up post based on [Reusable Bootstrap Modal Forms](/blog/2013/05/30/commentable-a-polymorphic-nested-comments-directive-for-angularjs/) in which I described how an
+This is a short follow-up post based on [Reusable Bootstrap Modal Forms](/2013/05/30/commentable-a-polymorphic-nested-comments-directive-for-angularjs/) in which I described how an
  AngularJS Directive can be used to encapsulate a number of templates and configurations to present a re-usable Bootstrap Modal form.
 
 <!--more-->

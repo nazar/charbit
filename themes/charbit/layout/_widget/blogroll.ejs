@@ -10,7 +10,7 @@
            <% } else { %>
              <i class="fa fa-anchor"></i>
            <% } %>
-           <%- link_to(link.url, link.name) %>
+           <%- link_to(link.url, link.name, { external: true }) %>
           </li>
         <% }) %>
       </ul>

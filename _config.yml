@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CharB.it
+title: Char Bit
 subtitle: A Journey Through Software Development, Culture and Life
 description:
 author: Nazar Aziz
@@ -93,7 +93,7 @@ deploy:
   root: /var/www/charb.it
 
 marked:
-  gfm: false
+  gfm: true
   pedantic: false
   sanitize: false
   tables: true
