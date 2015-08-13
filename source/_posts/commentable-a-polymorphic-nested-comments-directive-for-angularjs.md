@@ -1,7 +1,12 @@
-title: "Commentable: a Polymorphic Nested Comments Directive for AngularJS"
-date: 2013-05-30 11:00
-categories: [Software Development]
-tags: [AngularJS, Directives, Javascript]
+title: 'Commentable: a Polymorphic Nested Comments Directive for AngularJS'
+tags:
+  - AngularJS
+  - Directives
+  - Javascript
+categories:
+  - Software Development
+date: 2013-05-30 11:00:00
+summary:
 ---
 
 This blog post is based on my experiences developing a Commentable widget (more on this later) first using [Backbone.js](http://backbonejs.org/) and more recently, [AngularJS](http://angularjs.org/).

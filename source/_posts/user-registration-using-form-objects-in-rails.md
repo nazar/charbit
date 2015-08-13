@@ -1,7 +1,12 @@
 title: User Registration From Scratch using Form Objects in Rails
-date: 2013-05-13 14:33
-categories: [Software Development]
-tags: [Rails, Patterns, Form Object]
+tags:
+  - Rails
+  - Patterns
+  - Form Object
+categories:
+  - Software Development
+date: 2013-05-13 14:33:00
+summary:
 ---
 
 I recently watched a presentation by [Bryan Helmkamp](https://twitter.com/brynary) titled [Refactoring Fat Models with Patterns](http://www.youtube.com/watch?feature=player_embedded&v=IqajIYxbPOI). Bryan based

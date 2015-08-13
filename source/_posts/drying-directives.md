@@ -1,8 +1,13 @@
 title: DRYing AngularJS Directives
-date: 2013-06-03 11:45
+tags:
+  - AngularJS
+  - Directives
+  - Javascript
 comments: true
-tags: [AngularJS, Directives, Javascript]
-categories: [Software Development]
+categories:
+  - Software Development
+date: 2013-06-03 11:45:00
+summary:
 ---
 
 This is a short follow-up post based on [Reusable Bootstrap Modal Forms](/2013/05/30/commentable-a-polymorphic-nested-comments-directive-for-angularjs/) in which I described how an
