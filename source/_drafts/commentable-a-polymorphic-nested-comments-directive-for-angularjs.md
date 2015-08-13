@@ -1,5 +1,3 @@
----
-layout: post
 title: "Commentable: a Polymorphic Nested Comments Directive for AngularJS"
 date: 2013-05-30 11:00
 categories: [Software Development]
@@ -90,8 +88,8 @@ AngularJS advocates a [Declarative](http://en.wikipedia.org/wiki/Declarative_pro
         <div class="stats">
           <span class="user">{%raw%}{{comment.username}}{%endraw%}</span>
           <time class="timeago"
-                datetime="{%raw%}{{comment.created_at}}">
-            {{comment.created_at | date:'medium'}}{%endraw%}
+                datetime="{%raw%}{{comment.created_at}}{%endraw%}">
+            {%raw%}{{comment.created_at | date:'medium'}}{%endraw%}
           </time>
         </div>
         <p class="body">{%raw%}{{comment.body}}{%endraw%}</p>

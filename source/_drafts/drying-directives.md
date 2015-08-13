@@ -1,6 +1,4 @@
----
-layout: post
-title: "DRYing AngularJS Directives"
+title: DRYing AngularJS Directives
 date: 2013-06-03 11:45
 comments: true
 tags: [AngularJS, Directives, Javascript]

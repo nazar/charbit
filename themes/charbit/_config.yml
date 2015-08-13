@@ -21,6 +21,7 @@ fancybox: true
 
 pages:
 - about
+- uncopyright
 
 # Sidebar
 sidebar: right

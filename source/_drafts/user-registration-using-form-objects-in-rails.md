@@ -1,8 +1,5 @@
----
-layout: post
-title: "User Registration From Scratch using Form Objects in Rails"
+title: User Registration From Scratch using Form Objects in Rails
 date: 2013-05-13 14:33
-comments: true
 categories: [Software Development]
 tags: [Rails, Patterns, Form Object]
 ---
