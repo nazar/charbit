@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CharB.it
-subtitle: A Journey Through Software Development, Culture and Life
+title: Char Bit
+subtitle: A Journey Through Software Development
 description:
 author: Nazar Aziz
 email: mcnazar@gmail.com
@@ -91,3 +91,12 @@ deploy:
   host: charb.it
   user: nazar
   root: /var/www/charb.it
+
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true

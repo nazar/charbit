@@ -7,8 +7,8 @@ categories:
 date: 2014-11-27 21:04:12
 ---
 
-I present a ***FIVE*** hour music playlist which I often listen to whilst writing code.
- 
+I present an ***EIGHT*** hour music playlist which I often listen to whilst writing code.
+
 This playlist is often my **Set it and Forget It** selection and I hope you enjoy it.
 
 

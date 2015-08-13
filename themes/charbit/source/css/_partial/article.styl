@@ -33,7 +33,12 @@
     font-size: font-size !important
 
 .article
-  margin: 20px 0 block-margin
+  margin: 20px 0 block-margin + 15
+
+  .end-article
+    margin-top: 100px;
+    margin-bottom: -70px;
+    font-style italic
 
 .thumbnail
   float: right
@@ -41,7 +46,7 @@
   border: 1px solid color-border
   margin-left: 1rem
   border-radius: 6px
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.055)
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055)
 
 .article-inner
   @extend $block
@@ -157,6 +162,10 @@
   p
     font-family: Georgia, serif;
     font-size: 18px;
+
+  p.article-more-link {
+    margin: 5px
+  }
 
   h1, h2, h3, h4, h5, h6
     font-weight: bold
@@ -301,8 +310,8 @@
   font-size: font-size
   line-height: line-height
   border-top: 1px solid color-border
-  padding-top: line-height
-  margin-top: 4rem
+  padding-top: 3px
+
   a
     color: color-grey
     &:hover
@@ -419,8 +428,8 @@ $article-share-link
   &:before
     content: "\f099"
   &:hover
-    background: color-weibo
-    text-shadow: 0 1px darken(color-weibo, 20%)
+    background: color-link
+    text-shadow: 0 1px darken(color-link, 20%)
 
 .article-share-linked
   @extend $article-share-link

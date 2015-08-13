@@ -12,6 +12,7 @@ menu:
 #- name: About
 #  path: /about
 #  logo: user
+#
 rss: /atom.xml
 
 # Content
@@ -20,6 +21,7 @@ fancybox: true
 
 pages:
 - about
+- uncopyright
 
 # Sidebar
 sidebar: right
@@ -42,14 +44,20 @@ post_widgets:
 # Miscellaneous
 google_analytics: UA-55368874-2
 
-favicon: /favicon.ico
-twitter:
-google_plus:
+favicon: /favicon.png
+twitter: nazar_s_aziz
+google_plus: +NazarAziz
 
 links:
 - name: Github
   url: https://github.com/nazar
   logo: github
+- name: LinkedIn
+  url: https://www.linkedin.com/pub/nazar-aziz/5/160/7a1
+  logo: linkedin
+- name: Stackoverflow
+  url: http://stackoverflow.com/users/402110/nazar
+  logo: stack-overflow
 - name: Google+
   url: https://www.google.com/+NazarAziz
   logo: google-plus
@@ -61,3 +69,14 @@ feed:
 
 sitemap:
   path: sitemap.xml
+
+#### Author information
+author:
+  author_img: true
+  email: mcnazar@gmail.com ## e.g. imjark@gmail.com
+  twitter: nazar_s_aziz
+  github: nazar
+  linkedin: /pub/nazar-aziz/5/160/7a1 ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  google_plus: +NazarAziz ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
+  stackoverflow: 402110/nazar ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
+  steam: mcnaz

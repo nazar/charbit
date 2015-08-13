@@ -22,14 +22,14 @@
           <!--<%- thumbnail(post.content, 'thumbnail') %>-->
           <%- post_home(post.excerpt) %>
           <% if (theme.excerpt_link){ %>
-            <p class="article-more-link">
+            <p class="article-more-link clearfix">
               <a href="<%- config.root %><%- post.path %>#more"><%= theme.excerpt_link %></a>
             </p>
           <% } %>
         <% } else { %>
           <%- post_home(post.content) %>
         <% } %>
-        <footer class="article-footer">
+        <div class="article-footer">
           <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" data_title="<%- post.title %>"
           data_summary="<%- post.summary || post_summary(strip_html(post.content), 160) %>" class="article-share-link">Share</a>
           <% if (post.comments && config.disqus_shortname){ %>
@@ -37,11 +37,22 @@
           <% } %>
           <%- partial('post/category') %>
           <%- partial('post/tag') %>
-        </footer>
+        </div>
       <% } else if (is_wiki()){ %>
         <%- post.content %>
       <% } else { %>
         <%- post_toc(post.content) %>
+        <% if ( !is_page() ) { %>
+            <div class="end-article">
+                <p>
+                    The opinions expressed here represent my own and may or may not have any basis in reality or truth.
+                    These opinions are completely my own and not those of my friends, colleagues, acquaintances, pets, employers, etc...
+                </p>
+                <p>
+                    The information in this article is provided “AS IS” with no warranties and is <a href="/uncopyright">uncopyrighted</a> to the Public Domain.
+                </p>
+            </div>
+        <% } %>
       <% } %>
     </div>
   </div>
