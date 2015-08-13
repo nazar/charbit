@@ -161,6 +161,7 @@ B.Sc. In Computer Science from the University of Hull in 1995.
 + Cooking delicious food from around the world.
 + Hiking through woods, forests, beaches and mountains.
 + Gardening - but only when it is warm and sunny outside.
++ Brewing beer and wine but had to give that up because weight gain!
 
 ## What I Would Do If I Had More Time
 
