@@ -9,10 +9,13 @@ menu:
 - name: Tags
   path: /tags
   logo: tags
-#- name: About
-#  path: /about
-#  logo: user
-#
+- name: Experiments
+  path: /experiments
+  logo: flask
+- name: About
+  path: /about
+  logo: user
+
 rss: /atom.xml
 
 # Content
@@ -21,6 +24,7 @@ fancybox: true
 
 pages:
 - about
+- experiments
 - uncopyright
 
 # Sidebar

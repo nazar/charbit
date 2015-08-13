@@ -127,6 +127,10 @@
   @media mq-mobile
     display: none;
 
+  ul, ol, dl
+    font-family: inherit;
+    font-size: inherit;
+
 .toc-header
   font-size: subtitle-size
   font-weight: 700
@@ -152,16 +156,19 @@
   @extend $base-style
   clearfix()
   clear: both
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.95);
   padding: 0 article-padding
 
   p, table
     line-height: line-height
-    margin: line-height 0
+    margin-top: 30px;
+
 
   p
-    font-family: Georgia, serif;
-    font-size: 18px;
+    font-family: font-serif;
+    font-size: 22px;
+    letter-spacing: .01rem;
+    font-weight: 400;
 
   p.article-more-link {
     margin: 5px
@@ -178,8 +185,12 @@
     &:hover
       text-decoration: underline
   ul, ol, dl
-    /*margin-top: line-height
-    margin-bottom: line-height*/
+    font-family: font-serif;
+    font-size: 23px;
+    margin-top: 10px;
+    li
+      margin-bottom: 5px;
+
   img, video
     max-width: 100%
     height: auto
@@ -284,6 +295,8 @@
     @media mq-mobile
       width: 80%;
 
+  footer
+    background-color white;
 
 .article-more-link a
   display: inline-block
