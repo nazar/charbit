@@ -8,7 +8,7 @@ date: 2015-08-13 13:56:20
 
 ## Professional Profile
 
-A senior analyst, software developer and project manager with twenty years
+I am a senior analyst, software developer and project manager with twenty years
 commercial experience developing applications and [MVPs](https://en.wikipedia.org/wiki/Minimum_viable_product).
 
 
@@ -19,7 +19,7 @@ three years specialising in front-end frameworks such as [Backbone](http://backb
 recently [ReactJS](http://facebook.github.io/react/).
 Currently I am addicted to [Webpack](http://webpack.github.io/), [react-hot-loader](https://github.com/gaearon/react-hot-loader) and ES6 via [Babel](https://babeljs.io/).
 
-Along with me previous Ruby on Rails experience, I've produced websites for the following industries:
+Along with my previous Ruby on Rails experience, I've produced websites for the following industries:
 
 + [Geographic Information Systems](https://en.wikipedia.org/wiki/Geographic_information_system) with Google Maps API and [PostGIS](http://postgis.net/).
 + Commercial media cataloguing and delivery (video, audio and images).
@@ -32,8 +32,8 @@ Along with me previous Ruby on Rails experience, I've produced websites for the 
 + Custom Google maps integration with custom tile sets.
 + Complex polymorphic object relation modelling with solutions that encompass BOM (Bill of Material modelling) and DAGs (Directed Acyclic Graph).
 
-I am adept at source control and change management, specifically using Git and the
-[Gitflow](http://nvie.com/posts/a-successful-git-branching-model/) methodology.
+I am adept at source control and change management, specifically using Git with
+the [Gitflow](http://nvie.com/posts/a-successful-git-branching-model/) methodology.
 
 
 ## Technical Expertise
@@ -42,9 +42,9 @@ I am adept at source control and change management, specifically using Git and t
 Testing experience with Jasmine, Mocha and AngularJS Karma test runner.
 + **Seven years Ruby on Rails**. Experience with ERB, HAML, SASS and RSpec.
 + **Ten years CSS** – CSS2/CSS3 and Backbone.
-+ **Fourteen years Delphi** development experience using various client/server database backends, using OO methodology, principles of software reuse, design patterns and agile programming to achieve maintainable and efficient code.
++ **Fourteen years Delphi** experience using various client/server database backends, using OO methodology, principles of software reuse, design patterns and agile programming to achieve maintainable and efficient code.
 + **Six months Java** Android mobile development.
-+ **Three years PostgreSQL** with two years **PostGIS** experience - PostgresSQL 9.4 is my current favorite RDBMS.
++ **Three years PostgreSQL** with two years **PostGIS** experience - PostgresSQL 9.4 with JSONB is currently my favorite RDBMS.
 + **Eight years mySQL** experience.
 + **Eight years MSSQL** development and DBA experience.
 + **Five years Oracle PL/SQL** development and DBA experience.
@@ -64,25 +64,25 @@ extension. PhilterIt was covered by [Mashable](http://mashable.com/2012/06/25/ph
 amongst others. Designed and
 developed a scalable system architecture employing a custom NodeJS reverse-proxy to load-
 balance web traffic, IMAP services and socket.io connections.
-+ Senior Ruby/Javascript developer for Diddo. Developed Node.js based real-time chat server
++ Senior Ruby/Javascript developer for Diddo. Developed NodeJS based real-time chat server
 and client components to enable group chat between Diddo users, GChat and Facebook Chat.
 Developed Asynchronous based photo and video upload processing backend.
 + Designed and developed [Parlmnt](https://github.com/nazar/parlmnt), an AngularJS SPA backed by a service based Ruby on Rails
 application. Inspired by Reddit, parlmnt scraped legislative information from [parliament.uk](http://services.parliament.uk/bills/2012-13.html)
-and allows users to up/down vote and comment on each piece of legislation and legislators.
+and allowed users to up/down vote and comment on each piece of legislation and legislators.
 + Designed and developed [MediaCMS](https://github.com/nazar/MediaCMS), a Ruby on Rails based application. This application
-consists of over 50 tables that drive a media (video, audio and photo) based website.
-Features include: multiple flash based photo uploads, double entry accounting system to track
+consisted of over 50 tables that drove a media (video, audio and photo) based website.
+Features included: multiple flash based photo uploads, double entry accounting system to track
 and audit financial transactions, subscriptions, blogs, user creatable forums etc…
 + Designed and developed [RecipeTrees](https://github.com/nazar/recipetrees), a Ruby on Rails based application. Technologies to
 note: Facebook Graph API for single sign-on; deeply nested form updates; model based
-revision control (i.e. all previous revisions are recorded); a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) based model that linked similar ingredients.
+revision control (i.e. all previous object revisions are recorded); a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) based model that linked similar ingredients.
 + Designed and developed YAPT, an Android 1.6 application that enabled Android mobile users
-to send and receive short voice messages between each other. YAPT included an efficient Push
+to send and receive short audio messages between each other. YAPT included an efficient Push
 notification mechanism which at its height supported 3,000 concurrent and persistent
 connections.
 + Designed and developed [Darkfallsage](https://github.com/nazar/DarkFallSage), a Ruby on Rails community driven site that interlinked many in-game objects
-with full revision control. Also included a [custom tile-set Google Map implementation](http://wyrimaps.net/wow) that mapped in-game objects.
+with full object revision control. Also included a [custom tile-set Google Map implementation](http://wyrimaps.net/wow) that mapped in-game objects.
 + Designed and developed ProcSys, an Enterprise Resource Planning System. ProcSys managed
 an engineering project from budgeting, through to requisitioning, vendor biding, purchase
 order printing, GRN, Quality Control, Document Control and finally through to vendor invoice
@@ -113,8 +113,8 @@ web and desktop solutions. My clients included:
 
 **Harpua Inc – 1 year freelance**
 
-Lead developer and architect in developing PhilterIt Rails based application, with NodeJS
-based service architecture and an additional Chrome Browser extension.
+Lead developer and architect in developing PhilterIt, a Rails based application, with NodeJS
+based service architecture and an additional Chrome browser extension.
 
 **Diddo – 6 months freelance**
 
@@ -129,18 +129,18 @@ for various health care applications that interfaced to Samsung and HP medical e
 
 **Northgate Information Solutions – 9 months freelance**
 
-Updated Maxim3 to comply with [SAP2005 BRE specifications](http://projects.bre.co.uk/sap2005/) that come into effect in April 2006.
+Updated Maxim3 to comply with [SAP2005 BRE specifications](http://projects.bre.co.uk/sap2005/) that came into effect in April 2006.
 Maxim3 was a commercial tool used by building surveyors and contractors to assess
 dwelling energy requirements for efficiency reporting.
 
 **Axsia Serck Baker – 4.5 years freelance**
 
-Long term outsourcing project with Axsia Serck Baker in which all of their in-house MSSQL
+Long term project with Axsia Serck Baker in which all of their in-house MSSQL
 Client Server applications dealing with: procurement, document control, accounting and
 budget management were integrated into two enterprise level applications, with centralised
 software distribution, security and access control.
 
-### 1998 – 2001 : Interserve (formerly know as Building & Property Limited).
+### 1998 – 2001 : Interserve
 
 *Senior Analyst Programmer reporting to the IT Director*
 
@@ -168,7 +168,7 @@ B.Sc. In Computer Science from the University of Hull in 1995.
 + Spend much more time with my wife.
 + Get taught new games by Flossie, our [Border Terrier](https://www.google.co.uk/search?q=border+terrier&client=firefox-a&hs=Yvw&rls=org.mozilla:en-GB:official&channel=sb&tbm=isch&tbo=u&source=univ&sa=X&ved=0CH4QiR5qFQoTCPLFyfy1pscCFUG1Ggod5MgNXw&biw=1139&bih=915).
 + Study [Statistics](https://www.coursera.org/course/stats1).
-+ Study [Machine Learning](https://www.coursera.org/learn/machine-learning/home/info) then develop a music classifier based on a track [spectograms](https://en.wikipedia.org/wiki/Spectrogram).
++ Study [Machine Learning](https://www.coursera.org/learn/machine-learning/home/info) then develop a music classifier based on track [spectograms](https://en.wikipedia.org/wiki/Spectrogram).
 + Develop a website that maps the [Memetics](https://en.wikipedia.org/wiki/Memetics) Tree of Life.
 + Learn to speak Japanese.
 + Learn to make electronic music.
