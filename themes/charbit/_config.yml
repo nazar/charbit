@@ -9,9 +9,9 @@ menu:
 - name: Tags
   path: /tags
   logo: tags
-#- name: Experiments
-#  path: /experiments
-#  logo: flask
+- name: Projects
+  path: /projects
+  logo: flask
 - name: About
   path: /about
   logo: user
@@ -24,7 +24,7 @@ fancybox: true
 
 pages:
 - about
-- experiments
+- projects
 - uncopyright
 
 # Sidebar
