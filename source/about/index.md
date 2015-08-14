@@ -12,14 +12,14 @@ I am a senior analyst, software developer and project manager with twenty years
 commercial experience developing applications and [MVPs](https://en.wikipedia.org/wiki/Minimum_viable_product).
 
 
-I describe myself as: highly motivated, focused, driven, dedicated, technological liberal and pragmatic.
+I describe myself as: highly motivated, focused, driven, dedicated, pragmatic and technologically liberal.
 
 Since 2010 my focus has been on JavaScript, initially using NodeJS and in the last
 three years specialising in front-end frameworks such as [Backbone](http://backbonejs.org/), [AngularJS](https://angularjs.org/) and
 recently [ReactJS](http://facebook.github.io/react/).
-Currently I am addicted to [Webpack](http://webpack.github.io/), [react-hot-loader](https://github.com/gaearon/react-hot-loader) and ES6 via [Babel](https://babeljs.io/).
+Currently I am passionate about [Webpack](http://webpack.github.io/), [react-hot-loader](https://github.com/gaearon/react-hot-loader) and ES6 via [Babel](https://babeljs.io/).
 
-Along with my previous Ruby on Rails experience, I've produced websites for the following industries:
+Along with my previous Ruby on Rails experience I've produced websites for the following industries:
 
 + [Geographic Information Systems](https://en.wikipedia.org/wiki/Geographic_information_system) with Google Maps API and [PostGIS](http://postgis.net/).
 + Commercial media cataloguing and delivery (video, audio and images).
@@ -32,7 +32,7 @@ Along with my previous Ruby on Rails experience, I've produced websites for the 
 + Custom Google maps integration with custom tile sets.
 + Complex polymorphic object relation modelling with solutions that encompass BOM (Bill of Material modelling) and DAGs (Directed Acyclic Graph).
 
-I am adept at source control and change management, specifically using Git with
+I am adept at source control and change management specifically using Git with
 the [Gitflow](http://nvie.com/posts/a-successful-git-branching-model/) methodology.
 
 
@@ -53,10 +53,10 @@ Testing experience with Jasmine, Mocha and AngularJS Karma test runner.
 
 ## Achievements
 
-+ Designed and developed [Soapee](http://soapee.com), a lye calculator and recipe database for the soap making
++ Designed and developed [Soapee](http://soapee.com), a soap lye calculator and recipe database for the soap making
 community. [Implemented](https://github.com/nazar/soapee-ui) using ReactJS.
 + Project manager and technical lead for Clevertech. Developed a large GIS application using
-AngularJS and Google Maps Javascript API. The application is currently used by leading US telecoms providers to map
+AngularJS and Google Maps Javascript API. This application is currently used by leading US telecoms providers to map
 over 100 billion geographical data points.
 + Lead developer for Harpua Inc. Developed PhilterIt, a Rails web application and Chrome
 extension. PhilterIt was covered by [Mashable](http://mashable.com/2012/06/25/philterit-email/) and
@@ -65,7 +65,7 @@ amongst others. Designed and
 developed a scalable system architecture employing a custom NodeJS reverse-proxy to load-
 balance web traffic, IMAP services and socket.io connections.
 + Senior Ruby/Javascript developer for Diddo. Developed NodeJS based real-time chat server
-and client components to enable group chat between Diddo users, GChat and Facebook Chat.
+and JavaScript client components to enable group chat between Diddo users, GChat and Facebook Chat.
 Developed Asynchronous based photo and video upload processing backend.
 + Designed and developed [Parlmnt](https://github.com/nazar/parlmnt), an AngularJS SPA backed by a service based Ruby on Rails
 application. Inspired by Reddit, parlmnt scraped legislative information from [parliament.uk](http://services.parliament.uk/bills/2012-13.html)
@@ -73,7 +73,7 @@ and allowed users to up/down vote and comment on each piece of legislation and l
 + Designed and developed [MediaCMS](https://github.com/nazar/MediaCMS), a Ruby on Rails based application. This application
 consisted of over 50 tables that drove a media (video, audio and photo) based website.
 Features included: multiple flash based photo uploads, double entry accounting system to track
-and audit financial transactions, subscriptions, blogs, user creatable forums etc…
+and audit financial transactions, subscriptions, blogs, user creatable forums amongst other features.
 + Designed and developed [RecipeTrees](https://github.com/nazar/recipetrees), a Ruby on Rails based application. Technologies to
 note: Facebook Graph API for single sign-on; deeply nested form updates; model based
 revision control (i.e. all previous object revisions are recorded); a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) based model that linked similar ingredients.
@@ -131,13 +131,13 @@ for various health care applications that interfaced to Samsung and HP medical e
 
 Updated Maxim3 to comply with [SAP2005 BRE specifications](http://projects.bre.co.uk/sap2005/) that came into effect in April 2006.
 Maxim3 was a commercial tool used by building surveyors and contractors to assess
-dwelling energy requirements for efficiency reporting.
+dwelling energy requirements for statuary efficiency reporting.
 
 **Axsia Serck Baker – 4.5 years freelance**
 
 Long term project with Axsia Serck Baker in which all of their in-house MSSQL
 Client Server applications dealing with: procurement, document control, accounting and
-budget management were integrated into two enterprise level applications, with centralised
+budget management were integrated into two enterprise level applications with centralised
 software distribution, security and access control.
 
 ### 1998 – 2001 : Interserve
@@ -145,9 +145,9 @@ software distribution, security and access control.
 *Senior Analyst Programmer reporting to the IT Director*
 
 + Maintaining day to day running of CFACS, an oracle 7.x based financial accounting
-system, in reporting and generating queries for the Financial Department and Regional
+system in reporting and generating queries for the Financial Department and Regional
 Finance Director.
-+ Design and development of a multi-tiered application using Delphi 3 in importing data
++ Design and development of a multi-tiered application using Delphi 3 for importing data
 from over 100 remote sites for integration into CFACS.
 
 ## Qualifications
@@ -186,3 +186,5 @@ B.Sc. In Computer Science from the University of Hull in 1995.
 + [Distant Worlds: Universe](http://store.steampowered.com/app/261470/) - arguably the best 4x currently available. [Endless Space](http://store.steampowered.com/app/208140/) is also worth a mention.
 + [City Skylines](http://store.steampowered.com/app/255710/) - recently overthrew [Simcity 2000](https://en.wikipedia.org/wiki/SimCity_2000) as my favourite city builder.
 + Almost all the [X-COM](https://en.wikipedia.org/wiki/X-COM) games.
+
+**Thank you for your time and consideration.**
