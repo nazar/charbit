@@ -14,7 +14,7 @@ commercial experience developing applications and [MVPs](https://en.wikipedia.or
 
 I describe myself as: highly motivated, focused, driven, dedicated, pragmatic and technologically liberal.
 
-Since 2010 my focus has been on JavaScript, initially using NodeJS and in the last
+Since 2010 my focus has been on JavaScript, initially using Node.js and in the last
 three years specialising in front-end frameworks such as [Backbone](http://backbonejs.org/), [AngularJS](https://angularjs.org/) and
 recently [ReactJS](http://facebook.github.io/react/).
 Currently I am passionate about [Webpack](http://webpack.github.io/), [react-hot-loader](https://github.com/gaearon/react-hot-loader) and ES6 via [Babel](https://babeljs.io/).
@@ -38,7 +38,7 @@ the [Gitflow](http://nvie.com/posts/a-successful-git-branching-model/) methodolo
 
 ## Technical Expertise
 
-+ **Ten years JavaScript**. Experience using JavaScript on both servers (NodeJS) and clients (ReactJS, AngularJS, Backbone, Boostrap, jQuery UI).
++ **Ten years JavaScript**. Experience using JavaScript on both servers (Node) and clients (ReactJS, AngularJS, Backbone, Boostrap, jQuery UI).
 Testing experience with Jasmine, Mocha and AngularJS Karma test runner.
 + **Seven years Ruby on Rails**. Experience with ERB, HAML, SASS and RSpec.
 + **Ten years CSS** – CSS2/CSS3 and Backbone.
@@ -62,9 +62,9 @@ over 100 billion geographical data points.
 extension. PhilterIt was covered by [Mashable](http://mashable.com/2012/06/25/philterit-email/) and
  [TechCrunch](http://techcrunch.com/2012/11/28/now-available-as-a-gmail-add-on-philterit-lets-you-browse-your-inbox-visually/)
 amongst others. Designed and
-developed a scalable system architecture employing a custom NodeJS reverse-proxy to load-
+developed a scalable system architecture employing a custom Node reverse-proxy to load-
 balance web traffic, IMAP services and socket.io connections.
-+ Senior Ruby/Javascript developer for Diddo. Developed NodeJS based real-time chat server
++ Senior Ruby/Javascript developer for Diddo. Developed Node based real-time chat server
 and JavaScript client components to enable group chat between Diddo users, GChat and Facebook Chat.
 Developed Asynchronous based photo and video upload processing backend.
 + Designed and developed [Parlmnt](https://github.com/nazar/parlmnt), an AngularJS SPA backed by a service based Ruby on Rails
@@ -113,12 +113,12 @@ web and desktop solutions. My clients included:
 
 **Harpua Inc – 1 year freelance**
 
-Lead developer and architect in developing PhilterIt, a Rails based application, with NodeJS
+Lead developer and architect in developing PhilterIt, a Rails based application, with Node
 based service architecture and an additional Chrome browser extension.
 
 **Diddo – 6 months freelance**
 
-Developed MVP web application for investors. Developed real-time NodeJS based chat
+Developed MVP web application for investors. Developed real-time Node based chat
 application.
 
 **iSOFT PLC – 2 years freelance**
