@@ -186,5 +186,3 @@ B.Sc. In Computer Science from the University of Hull in 1995.
 + [Distant Worlds: Universe](http://store.steampowered.com/app/261470/) - arguably the best 4x currently available. [Endless Space](http://store.steampowered.com/app/208140/) is also worth a mention.
 + [City Skylines](http://store.steampowered.com/app/255710/) - recently overthrew [Simcity 2000](https://en.wikipedia.org/wiki/SimCity_2000) as my favourite city builder.
 + Almost all the [X-COM](https://en.wikipedia.org/wiki/X-COM) games.
-
-**Thank you for your time and consideration.**
