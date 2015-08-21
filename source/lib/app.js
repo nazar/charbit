@@ -10,6 +10,5 @@
     m.parentNode.insertBefore( a, m )
 })( window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga' );
 
-ga( 'create',  base.decode('VUEtNTUzNjg4NzQtNQ=='), 'auto' );
-ga( 'set', 'campaignName', base.decode("Y3VzdG9tX3Zhcl8xMjM=") );
+ga( 'create',  base.decode('VUEtNjY1OTA4MzAtMQ=='), 'auto' );
 ga( 'send', 'pageview' );
