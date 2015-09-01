@@ -53,7 +53,7 @@ The following relationships exist between facebook users:
 
 Facebook provides security/privacy settings in which certain content is only accessible to "Friends" only hence the need to model and distinguish that relationship specifically.
 
-For **Soapee** I need to model **symmetric relationships** as I required to identify *friends* in order to limit recipe visibility. My implementation follows:
+For **Soapee** I needed to model **symmetric relationships** as I required to identify *friends* in order to limit recipe visibility. My implementation follows:
 
 ## Symmetric Friendship Table Structure
 
@@ -199,8 +199,8 @@ function getUserFriendsWithRecipes() {
 {% endcodeblock %}
 </div>
 
-The above function, given a userId, will retrieve a specific user and will also eager-load the specific user's **friends** and their **recipes**. Note that recipes are attached to
-friends but a simple **lodash** [reduce](https://lodash.com/docs#reduce), already [built-into](http://bookshelfjs.org/#Collection-subsection-lodash-methods) **Bookshelf.js**,
+The above function, given a *userId*, will retrieve a specific user and will also eager-load the specific user's **friends** and their **recipes**. Note that recipes are attached to
+friends but a simple **lodash** [reduce](https://lodash.com/docs#reduce), already [built into](http://bookshelfjs.org/#Collection-subsection-lodash-methods) **Bookshelf.js**,
 is able to collect all recipes from the returned *friends* [collection](http://bookshelfjs.org/#section-Collection).
 
 The key relation here is **friends**,
