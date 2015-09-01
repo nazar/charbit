@@ -1,4 +1,4 @@
-title: "Modelling Symmetrical Relationships with Bookshelf.js"
+title: Modelling Symmetrical Relationships with Bookshelf.js
 tags:
   - Bookshelf.js
   - Javascript
@@ -6,6 +6,7 @@ tags:
   - ORM
 categories:
   - Software Development
+date: 2015-09-01 15:13:10
 summary:
 ---
 
@@ -15,7 +16,9 @@ by default recipes were *public*.
 Follows is a post on how I modeled *Friendships* using [Bookshelf.js](http://bookshelfjs.org) with [PostgreSQL](http://www.postgresql.org/) in
 **Soapee's** Express based [API Server](https://github.com/nazar/soapee-api).
 
-But first, a primer on **symmetric** and **asymmetric** friendships.
+But first, a primer on **symmetric** and **asymmetric** friendships and their differences.
+
+<!--more-->
 
 ## Friendship Relationships
 
