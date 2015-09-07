@@ -126,11 +126,12 @@ export let User = bookshelf.Model.extend( {
             .belongsToMany( User )
             .through( Friendship, 'friend_id', 'user_id' )
             .query( qb => {
-                qb.whereRaw( `exists(
-                                 select 1
-                                 from friendships f
-                                 where f.friend_id = friendships.user_id
-                                 and f.user_id = friendships.friend_id )`
+                qb.whereRaw(
+                     `exists(
+                         select 1
+                         from friendships f
+                         where f.friend_id = friendships.user_id
+                         and f.user_id = friendships.friend_id )`
                 );
             } );
     },
@@ -144,11 +145,12 @@ export let User = bookshelf.Model.extend( {
             .belongsToMany( User )
             .through( Friendship, 'friend_id', 'user_id' )
             .query( qb => {
-                qb.whereRaw( `not exists(
-                                 select 1
-                                 from friendships f
-                                 where f.friend_id = friendships.user_id
-                                 and f.user_id = friendships.friend_id )`
+                qb.whereRaw(
+                     `not exists(
+                         select 1
+                         from friendships f
+                         where f.friend_id = friendships.user_id
+                         and f.user_id = friendships.friend_id )`
                 );
             } );
     },
@@ -162,11 +164,12 @@ export let User = bookshelf.Model.extend( {
             .belongsToMany( User )
             .through( Friendship, 'user_id', 'friend_id' )
             .query( qb => {
-                qb.whereRaw( `not exists(
-                                  select 1
-                                  from friendships f
-                                  where f.friend_id = friendships.user_id
-                                  and f.user_id = friendships.friend_id )`
+                qb.whereRaw(
+                      `not exists(
+                          select 1
+                          from friendships f
+                          where f.friend_id = friendships.user_id
+                          and f.user_id = friendships.friend_id )`
                 );
             } );
     }
@@ -223,7 +226,7 @@ function getUserFriendsWithRecipes() {
 **Soapee's** [User](https://github.com/nazar/soapee-api/blob/master/src/models/user.js) model defines additional relations (such as **status update** for example) which can all be
 eager loaded through **friends**.
 
-## Restricting Friend's Recipes by Privacy Settings
+## Respecting Friend's Recipes Privacy Settings
 
 I'll finish with an example that I hope illustrates how flexible **Bookshelf.js** is in both defining and querying relationships.
 
