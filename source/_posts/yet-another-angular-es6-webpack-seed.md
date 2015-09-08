@@ -1,11 +1,11 @@
-title: "Yet Another AngularJS ES6 Webpack Seed Project"
+title: Yet Another AngularJS ES6 Webpack Seed Project
 tags:
   - AngularJS
   - Webpack
   - Javascript
 categories:
   - Software Development
-date: 2015-09-07
+date: 2015-09-08
 summary:
 ---
 
