@@ -96,7 +96,7 @@ Developed in nine months.
 
 ## Experience
 
-### 2013 – 2015 : Clevertech
+### 2013 – Present : Clevertech
 
 *Project Manager / Technical Lead / Solutions Architect*
 
