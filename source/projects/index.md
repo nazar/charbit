@@ -17,6 +17,8 @@ Comprises of two sub-projects:
 
 Experimented in using Webpack with Babel (for ES6 goodness) on the server.
 
+## Retired Projects
+
 ### [Soundcloud Top 100 Charts](http://charts.charb.it)
 
 Scrapes [Soundcloud](https://soundcloud.com/) daily and calculates the top 1,000 chart based on track playbacks. Also saves daily track statistics.
@@ -29,9 +31,6 @@ A project I used to become familiar with HapiJS, AngularJS and later ReactJS. Co
 Challenges:
 * Developing a custom HTML5 Audio player that is mobile friendly. Soundcloud's playback widget had issues where tracks could not be auto-played on mobiles and tablets.
 * collecting statistics on the ~80,000 tracks that are uploaded to Soundcloud on a daily basis.
-
-
-## Retired Projects
 
 ### [Parlmnt](https://github.com/nazar/parlmnt)
 
