@@ -11,7 +11,7 @@ summary:
 
 I’ve been asked, on more than one occasion, about moving to ES6’s native Promises as opposed to using a third party library such as [When](https://github.com/cujojs/when) or [Bluebird](http://bluebirdjs.com/docs/getting-started.html).  In every occasion surprise was expressed when my response was that _I intend to continue using Bluebird over native Promises_.
 
-Some express concerns that third party Promise libraries might not be as performant as Native Promises but, IMHO, this is a poor decision metric as: a) Promises are mostly used in conjunction with external resources (think DB or API queries) - the bottleneck isn’t the Promise implementation; b) third party Promise implementations are [leaner and more performant](http://bluebirdjs.com/docs/benchmarks.html) than Native Promises - at least for now.
+Some express surprise over not using native Promises, at times citing concerns that third party Promise libraries might not be as performant as Native Promises but, IMHO, this is a poor decision metric as: a) Promises are mostly used in conjunction with external resources (think DB or API queries) - the bottleneck isn’t the Promise implementation; b) third party Promise implementations are [leaner and more performant](http://bluebirdjs.com/docs/benchmarks.html) than Native Promises - at least for now.
 
 My answer always focused on the additional benefits and “sugar” provided by third party libraries when compared to the sparse implementation of Native Promises.
 
@@ -217,3 +217,9 @@ Using `fs.readfile` as an example:
   	    .then(output)
   	    .catch(displayError);
 {% endcodeblock %}
+
+## Finally
+
+Hopefully I've shown the added benefits third party Promise libraries provide specifically in terms of convenience and encapsulation of difficult problems such as sequential asynchronous operations, to name a few.
+
+I encourage the reader to visit [Bluebird's API reference](http://bluebirdjs.com/docs/api-reference.html). I promise you'll find it convenient!
